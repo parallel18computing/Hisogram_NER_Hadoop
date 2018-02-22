@@ -8,7 +8,7 @@ To run this project is necessary to give the right arguments:
 
 **args[1] = tweets** --> it is an empty directory where the program will save new .xml files containing only <TweetText> tag extracted from  the .xml files in input directory. In the _parallel18computing/Histogram_NER_Hadoop/tweets_ directory it can be found a set of .xml files which consisting in the extraction of the <TweetText> tag in .xml files in the *parallel18computing/Histogram_NER_Hadoop/input* directory.
 
-**args[2] = model** --> it is a directory containing one of the .AbstractCharLmRescoringChunker model for [NER](http://alias-i.com/lingpipe/web/models.html) avaiable to the lingPipe      library . The model in the _parallel18computing/Histogram_NER_Hadoop/model_ directory is able to recognize PERSON, LOCATION and ORGANIZATION.
+**args[2] = model** --> it is a directory containing one of the .AbstractCharLmRescoringChunker [models](http://alias-i.com/lingpipe/web/models.html) for NER avaiable to the lingPipe library . The model in the _parallel18computing/Histogram_NER_Hadoop/model_ directory is able to recognize PERSON, LOCATION and ORGANIZATION.
 
 **args[3] = output** --> it is a directory that will be created from the program after its execution. In _parallel18computing/Histogram_NER_Hadoop/output_ there are the results of the program using _parallel18computing/Histogram_NER_Hadoop/input_ as input and with numRepetition set to two.
 
