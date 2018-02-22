@@ -1,0 +1,2 @@
+LOCATIONS found: 796
+The most frequent is 'co', which has been detected 122 times.
