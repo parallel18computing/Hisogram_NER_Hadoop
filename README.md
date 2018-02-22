@@ -4,9 +4,9 @@ This project is a Hadoop implementation in Java of the creation of Histograms re
 
 To run this project is necessary to give the right arguments:
 
-**args[0] = input** --> it is a directory that must contain tweets in .xml format. It is necessary that the tweet texts are collocated in the xml tag <TweetText>. In the *parallel18computing/Histogram_NER_Hadoop/input_ directory* it can be found a set of .xml files which are the dataset downloaded from https://github.com/badiehm/TwitterNEED.
+**args[0] = input** --> it is a directory that must contain tweets in .xml format. It is necessary that the tweet texts are collocated in the xml tag <TweetText>. In the *parallel18computing/Histogram_NER_Hadoop/input* directory it can be found a set of .xml files which are the dataset downloaded from https://github.com/badiehm/TwitterNEED.
 
-**args[1] = tweets** --> it is an empty directory where the program will save new .xml files containing only <TweetText> tag extracted from  the .xml files in input directory. In the _parallel18computing/Histogram_NER_Hadoop/tweets_ directory_ it can be found a set of .xml files which consisting in the extraction of the <TweetText> tag in .xml files in the *parallel18computing/Histogram_NER_Hadoop/input* directory.
+**args[1] = tweets** --> it is an empty directory where the program will save new .xml files containing only <TweetText> tag extracted from  the .xml files in input directory. In the _parallel18computing/Histogram_NER_Hadoop/tweets_ directory it can be found a set of .xml files which consisting in the extraction of the <TweetText> tag in .xml files in the *parallel18computing/Histogram_NER_Hadoop/input* directory.
 
 **args[2] = model** --> it is a directory containing one of the .AbstractCharLmRescoringChunker model for NER avaiable to the lingPipe      library (http://alias-i.com/lingpipe/web/models.html). The model in the _parallel18computing/Histogram_NER_Hadoop/model_ directory is able to recognize PERSON, LOCATION and ORGANIZATION.
 
