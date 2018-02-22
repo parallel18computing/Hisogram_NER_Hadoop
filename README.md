@@ -4,7 +4,7 @@ This project is a Hadoop implementation in Java of the creation of Histograms re
 
 To run this project is necessary to give the right arguments:
 
-args[0] = input --> it is a directory that must contain tweets in .xml format. It is necessary that the tweet texts are collocated in the xml tag <TweetText>. In the "parallel18computing/Histogram_NER_Hadoop/input" directory it can be found a set of .xml files which are the dataset downloaded from https://github.com/badiehm/TwitterNEED.
+![#1589F0](https://placehold.it/15/1589F0/000000?text=+)'args[0] = input' --> it is a directory that must contain tweets in .xml format. It is necessary that the tweet texts are collocated in the xml tag <TweetText>. In the "parallel18computing/Histogram_NER_Hadoop/input" directory it can be found a set of .xml files which are the dataset downloaded from https://github.com/badiehm/TwitterNEED.
 
 args[1] = tweets --> it is an empty directory where the program will save new .xml files containing only <TweetText> tag extracted from  the .xml files in input directory. In the "parallel18computing/Histogram_NER_Hadoop/tweets" directory it can be found a set of .xml files which consisting in the extraction of the <TweetText> tag in .xml files in the "parallel18computing/Histogram_NER_Hadoop/input" directory.
 
